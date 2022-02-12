@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="design.css">
+    <!--font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <div class="logo">
+            <h4>
+                <a href="#">Nicolas Case</a>
+            </h4>
+        </div>
+        <button class="nav-toggle"><i class="fas fa-caret-square-down"></i></button>
+        <ul class="navLinks" id="navLinks">
+            <li><a class="seleccion active" href="#">Home</a></li>
+            <li><a class="seleccion" href="#myWork">Sobre mi</a></li>
+            <li><a class="seleccion" href="#proyectos">Proyectos</a></li>
+            <li><a class="seleccion" href="#aboutMe">Skills</a></li>
+
+            <li><a class="seleccion" href="#contact">Contacto</a></li>
+        </ul>
+
+    </nav>
+
+    <!--Landing-->
+    <section id="landing">
+        <div class="landingOverlay">
+            <header>
+                <h1 id="title"><span class="home-title"></span><span class="cursor typing">&nbsp;</span></h1>
+                <p id="subHeading">Trainee Web Developer</p>
+            </header>
+        </div>
+
+    </section>
+    <!--My work-->
+    <section id="myWork">
+        <div class="main-container">
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+
+                    </div>
+
+                </div>
+                <div class="nav-text">
+                    <h1 class="about">Sobre mi</h1>
+                    <br>
+                    <h2 class="description">Soy un Desarrollador Web Trainee, en constante autoformación de tecnologías tanto en front-end como back-end. Comenzando con el aprendizaje a mitad de año en 2021, iniciando con lenguajes del lado del cliente para proseguir del lado del servidor, enlazando para lograr algunos de los siguientes proyectos. Mi interés es el aprendizaje continuo de lenguajes y frameworks con el fin de lograr proyectos más complejos e idóneos.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Proyectos-->
+    <section class="sector-project">
+        <div class="cards-title" id="proyectos">
+            <h3>Proyectos</h3>
+        </div>
+        <div class="cards-container">
+
+            <div class="projecto">
+                <img src="img/projecto 1.png" alt="">
+                <div class="info">
+                    <div class="info-title">Matriceria Humatri</div>
+                    <div class="info-icon">
+                        <a class="github" href="https://github.com/Nico-case/html-css-js-project1-" target="_blank"><i class="fab fa-github-alt"></i></a>
+                        <a class="web" href="https://nicolas-case-n1.herokuapp.com/" target="_blank"><i class="fas fa-pager"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projecto">
+                <img src="/img/projecto 2.png" alt="">
+                <div class="info">
+                    <div class="info-title">Music player</div>
+                    <div class="info-icon">
+                        <a class="github" href="https://github.com/Nico-case/html-css-js-project2-" target="_blank"><i class="fab fa-github-alt"></i></a>
+                        <a class="web" href="https://nicolas-case-n2.herokuapp.com/" target="_blank"><i class="fas fa-pager"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="projecto">
+                <img src="img/projecto 3.png" alt="">
+                <div class="info">
+                    <div class="info-title">Anotador</div>
+                    <div class="info-icon">
+                        <a class="github" href="https://github.com/Nico-case/nodejs-mongodb-project3" target="_blank"><i class="fab fa-github-alt"></i></a>
+                        <a class="web" href="https://nicolas-case-n3.herokuapp.com/" target="_blank"><i class="fas fa-pager"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Skills-->
+    <section id="aboutMe">
+        <div class="box-skill">
+            <div class="box-title">Skills</div>
+            <div class="box-icons">
+                <div class="box-icon">
+                    <img src="img/icons/html.svg" class="img-prueba" />
+                    <h2 class="box-text">HTML</h2>
+                </div>
+                <div class="box-icon">
+                    <img src="img/icons/css.svg" class="img-prueba" />
+                    <h2 class="box-text">CSS</h2>
+                </div>
+                <div class="box-icon">
+                    <img src="img/icons/javascript.svg" class="img-prueba">
+                    <h2 class="box-text">Javascript</h2>
+                </div>
+                <div class="box-icon">
+
+                    <img src="img/icons/react.svg" class="img-prueba">
+                    <h2 class="box-text">ReactJS</h2>
+                </div>
+                <div class="box-icon">
+                    <img src="img/icons/nodejs.svg" class="img-prueba">
+                    <h2 class="box-text">NodeJS</h2>
+                </div>
+                <div class="box-icon">
+                    <img src="img/icons/mongodb.svg" class="img-prueba">
+                    <h2 class="box-text">MongoDB</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact form-->
+    <section id="contact">
+        <div class="form-contact">
+            <div class="contact-section">
+                <h1>Contacto</h1>
+                <form action="index.html" class="contact-form">
+                    <input type="text" class="contact-form-text" placeholder="Nombre" />
+                    <input type="email" class="contact-form-text" placeholder="Email" />
+                    <textarea class="contact-form-text" placeholder="Mensaje"></textarea>
+                    <input type="submit" class="contact-form-btn" value="Send" />
+                </form>
+            </div>
+        </div>
+        <div class="icon-github">
+
+            <a href="https://github.com/Nico-case" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!--Foot page-->
+
+</body>
+<script src="script.js">
+</script>
+<script src="textani.js"></script>
+
+</html>
+
+
